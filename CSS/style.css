@@ -10,6 +10,28 @@ body {
     text-align:center;
 }
 
+.col-md-12 .row .col-md-4 .share {
+    margin-top: 2rem;
+  }
+  
+  .col-md-12 .row .col-md-4 .share a {
+    height: 5rem;
+    width: 5rem;
+    background: #fff;
+    border: 0.2rem solid #222;
+    border-radius: 5px;
+    font-size: 2rem;
+    line-height: 4.5rem;
+    color: #222;
+    text-align: center;
+    margin-right: .3rem;
+  }
+  
+  .col-md-12 .row .col-md-4 .share a:hover {
+    background: #069E98;
+    color: #fff;
+  }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family:'Open Sans', sans-serif;
@@ -95,6 +117,8 @@ color:#fff;
 
 .offer-text
 {
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
 position: absolute;
 color: #FFF;
 padding: 14px 16px 12px 16px;
@@ -104,6 +128,8 @@ background-color:#18b424;
 }
 .offer-text2
 {
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
 position: absolute;
 color: #FFF;
 padding: 14px 16px 12px 16px;
